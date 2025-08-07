@@ -1,1 +1,0 @@
-void parseInput(char *input, int tab[4][4]);
