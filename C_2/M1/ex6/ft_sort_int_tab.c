@@ -12,8 +12,8 @@
 #include <stdio.h>
 void	ft_sort_int_tab(int *tab, int size)
 {
-	int	a;
-	int	b;
+	int a;
+	int b;
 	int	min;
 	int	temp;
 
@@ -46,11 +46,11 @@ int	main()
 	ft_sort_int_tab(tableau, 5);
 	while(i < taille)
 	{
-		/*if (tableau[i] == '\0')
+	if (tableau[i] == '\0')
 		{
 			printf("%s\n","probleme index");
 			printf("%d\n",i);
-		}*/
+		}
 		printf("%d\n", tableau[i]);
 		i++;
 	}
